@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Contact Us</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <header>
+        <h1>Contact Us</h1>
+        <nav>
+            <a href="index.html">Home</a>
+            <a href="movies.html">Movies</a>
+            <a href="about.html">About</a>
+            <a href="contact.html">Contact</a>
+        </nav>
+    </header>
+    <main>
+        <div id="alert-message" class="alert hidden"></div>
+        <form id="contactForm">
+            <label>Name:</label><br />
+            <input type="text" id="name" required><br />
+            <label>Email:</label><br />
+            <input type="email" id="email" required><br />
+            <label>Message:</label><br />
+            <textarea id="message" required></textarea><br />
+            <button type="submit">Send</button>
+        </form>
+    </main>
+    <script src="js/contact.js"></script>
+</body>
+
+</html>
